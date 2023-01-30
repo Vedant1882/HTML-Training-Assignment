@@ -83,25 +83,25 @@ p{
 @media only screen and (min-width:360px) and (max-width:1127px){
 	.textbox {
 		
-		margin-left:0%;
+		margin-left:8%;
 	}
 	.login{
-		margin-left:0%;
+		margin-left:8%;
 	}
 	.link{
 		margin-left:0%;
 	}
 	.font{
-		margin-left:0%;
+		margin-left:5%;
 	}
 	.coimage{
-		margin-left:0%;
+		margin-left:15%;
 	}
 	.font1{
-		margin-left:0%;
+		margin-left:15%;
 	}
 	.link{
-		margin-left:0%;
+		margin-left:15%;
 	}
 	.anchor{
 		margin-left:0%;
@@ -111,7 +111,7 @@ p{
 	}
 	.thirddiv {
 		
-		margin-left:200px;
+		margin-left:250px;
 	}
 	.heroimage {
 		height: 550px;
@@ -144,7 +144,7 @@ p{
 		margin-left:0%;
 	}
 	.link{
-		margin-left:0%;
+		margin-left:10%;
 	}
 	.anchor{
 		margin-left:0%;

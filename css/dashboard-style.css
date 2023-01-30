@@ -1,4 +1,3 @@
-
 .headerline {
     display: flex;
     flex-direction: row;
@@ -19,6 +18,14 @@
     height: 30px;
     margin-left: 25px;
     margin-top: 15px;
+}
+
+.companylogo-mobile {
+    width: 30px;
+    height: 30px;
+    margin-left: 25px;
+    margin-top: 15px;
+    display: none;
 }
 
 .searchlogo {
@@ -71,7 +78,7 @@
 
 .sidebar {
     margin-top: 25px;
-    height: 1279px;
+    height:800px;
     width: 242px;
     display: flex;
     flex-direction: column;
@@ -97,7 +104,7 @@
     margin-left: 15px;
     position: relative;
     align-items: center;
-    top:7px;
+    top: 7px;
     right: 5px;
 }
 
@@ -147,8 +154,8 @@
 .mainpage {
     float: left;
     background-color: #FAFAFA;
-    height: 1200px;
-    width: 1260px;
+    height: auto;
+    width:1195px;
 }
 
 .topdashdiv span {
@@ -157,11 +164,12 @@
     display: flex;
     flex-direction: column;
 }
+
 /*first div*/
 .info-div {
     display: flex;
     flex-direction: row;
-    margin-top:20px;
+    margin-top: 20px;
 }
 
 .info-1 {
@@ -183,16 +191,17 @@
     margin: 32px 0px 0px 16px;
 }
 
-    .innerinfo-1 span {
-        font-size: 25px;
-    }
+.innerinfo-1 span {
+    font-size: 25px;
+}
 
-    .innerinfo-1 p {
-        font-size: 15px;
-        margin-left: 1px;
-        bottom: 10px;
-        position: relative;
-    }
+.innerinfo-1 p {
+    font-size: 15px;
+    margin-left: 1px;
+    bottom: 10px;
+    position: relative;
+}
+
 /*Second div*/
 
 
@@ -215,16 +224,16 @@
     margin: 32px 0px 0px 16px;
 }
 
-    .innerinfo-2 span {
-        font-size: 25px;
-    }
+.innerinfo-2 span {
+    font-size: 25px;
+}
 
-    .innerinfo-2 p {
-        font-size: 15px;
-        margin-left: 1px;
-        bottom: 10px;
-        position: relative;
-    }
+.innerinfo-2 p {
+    font-size: 15px;
+    margin-left: 1px;
+    bottom: 10px;
+    position: relative;
+}
 
 /*3rd div*/
 .info-3 {
@@ -238,8 +247,8 @@
 
 .innerimage-3 {
     margin: 37px 0px 0px 20px;
-    width:45px;
-    height:45px;
+    width: 45px;
+    height: 45px;
 }
 
 .innerinfo-3 {
@@ -248,17 +257,18 @@
     margin: 32px 0px 0px 16px;
 }
 
-    .innerinfo-3 span {
-        font-size: 25px;
-    }
+.innerinfo-3 span {
+    font-size: 25px;
+}
 
-    .innerinfo-3 p {
-        font-size: 15px;
-        margin-left: 1px;
-        bottom: 10px;
-        position: relative;
-    }
-    /*4th div*/
+.innerinfo-3 p {
+    font-size: 15px;
+    margin-left: 1px;
+    bottom: 10px;
+    position: relative;
+}
+
+/*4th div*/
 .info-4 {
     display: flex;
     flex-direction: row;
@@ -268,7 +278,7 @@
     width: 220px;
 }
 
-.innerimage-4{
+.innerimage-4 {
     margin: 37px 0px 0px 20px;
 }
 
@@ -278,17 +288,18 @@
     margin: 32px 0px 0px 20px;
 }
 
-    .innerinfo-4 span {
-        font-size: 25px;
-    }
+.innerinfo-4 span {
+    font-size: 25px;
+}
 
-    .innerinfo-4 p {
-        font-size: 15px;
-        margin-left: 1px;
-        bottom: 10px;
-        position: relative;
-    }
-    /*5th div*/
+.innerinfo-4 p {
+    font-size: 15px;
+    margin-left: 1px;
+    bottom: 10px;
+    position: relative;
+}
+
+/*5th div*/
 .info-5 {
     display: flex;
     flex-direction: row;
@@ -308,45 +319,51 @@
     margin: 34px 0px 0px 16px;
 }
 
-    .innerinfo-5 span {
-        font-size: 25px;
-    }
+.innerinfo-5 span {
+    font-size: 25px;
+}
 
-    .innerinfo-5 p {
-        bottom: 10px;
-        position: relative;
-        font-size: 15px;
-        margin-left: 1px;
-    }
+.innerinfo-5 p {
+    bottom: 10px;
+    position: relative;
+    font-size: 15px;
+    margin-left: 1px;
+}
+
 /*  graphs */
 .graphs {
     display: flex;
-    flex-direction:row;
+    flex-direction: row;
 }
+
 .salegraph {
     display: flex;
-    flex-direction:column;
-    background-color:white;
-    margin-left:69px;
-    margin-top:30px;
+    flex-direction: column;
+    background-color: white;
+    margin-left: 69px;
+    margin-top: 30px;
 }
+
 .graphhead {
     display: flex;
-    flex-direction:row;
+    flex-direction: row;
 }
+
 .graph-sales {
     font-size: 29px;
     margin-right: 90px;
     font-weight: bolder;
     margin-left: 20px;
 }
+
 .graph-weekly {
     margin-left: 260px;
     text-decoration: none;
-    margin-top:40px;
+    margin-top: 40px;
     font-size: 15px;
     color: #ADADAD;
 }
+
 .graph-monthly {
     margin-left: 90px;
     text-decoration: none;
@@ -355,6 +372,7 @@
     font-size: 15px;
     color: #ADADAD;
 }
+
 .graph-yearly {
     margin-left: 90px;
     margin-top: 15px;
@@ -362,129 +380,196 @@
     font-size: 15px;
     color: #C8242F;
 }
-.graph1{
-    margin-left:20px;
+
+.graph1 {
+    margin-left: 20px;
 }
+
 /*Sales by country graph*/
 .salesbycountry {
     display: flex;
-    flex-direction:column;
-    margin-left:30px;
-    margin-top:30px;
-    background-color:white;
-    width:385px;
+    flex-direction: column;
+    margin-left: 30px;
+    margin-top: 30px;
+    background-color: white;
+    width: 385px;
 }
-.salesbycountry p{
-    font-weight:bolder;
-    font-size:22px;
-    margin-left:15px;
+
+.salesbycountry p {
+    font-weight: bolder;
+    font-size: 22px;
+    margin-left: 15px;
 }
-.salesbycountry img{
-        height:200px;
-        width:200px;
-        margin-left:100px;
-    }
+
+.salesbycountry img {
+    height: 200px;
+    width: 200px;
+    margin-left: 100px;
+}
+
 .piemain {
     display: flex;
     flex-direction: column;
 }
+
 .uscanada {
     display: flex;
-    flex-direction:row;
+    flex-direction: row;
 }
+
 .greendot {
     background-color: green;
     border-radius: 50%;
     height: 18px;
     width: 18px;
-    margin-top:5px;
-    margin-left:15px;
+    margin-top: 5px;
+    margin-left: 15px;
 }
+
 .reddot {
-    background-color:red;
+    background-color: red;
     border-radius: 50%;
     height: 18px;
     width: 18px;
-    margin-top:5px;
-    margin-left:15px;
+    margin-top: 5px;
+    margin-left: 15px;
 }
-.uscanada p{
-    font-size:15px;
+
+.uscanada p {
+    font-size: 15px;
 
 }
-.rus-india{
+
+.rus-india {
     display: flex;
-    flex-direction:row;
+    flex-direction: row;
 }
+
 .orangedot {
     background-color: rgb(247, 186, 32);
     border-radius: 50%;
     height: 18px;
     width: 18px;
-    margin-top:5px;
-    margin-left:15px;
+    margin-top: 5px;
+    margin-left: 15px;
 }
-.yellowdot{
-    
-        background-color: rgb(224, 244, 73);
-        border-radius: 50%;
-        height: 18px;
-        width: 18px;
-        margin-top:5px;
-        margin-left:145px;
+
+.yellowdot {
+
+    background-color: rgb(224, 244, 73);
+    border-radius: 50%;
+    height: 18px;
+    width: 18px;
+    margin-top: 5px;
+    margin-left: 145px;
 }
-.rus-india p{
-    font-size:15px;
+
+.rus-india p {
+    font-size: 15px;
 
 }
+
 /* TABLE */
-.table{
+.table {
     background-color: white;
-    margin-left:70px;
-    
-    width:1173px;
+    margin-left: 70px;
+
+    width: 1173px;
 }
-.head11{
-    color:#ADADAD;
+
+.head11 {
+    color: #ADADAD;
 }
-.paid{
-color: #3CDD5F;
-background-color: #EBFFEF;
-text-align: center;
-border-radius: 5%;
-width:10px;
+
+.paid {
+    color: #3CDD5F;
+    background-color: #EBFFEF;
+    text-align: center;
+    border-radius: 5%;
+    width: 10px;
 }
-.failed{
-    color:#FF4545;
+
+.failed {
+    color: #FF4545;
     background-color: #FFF5F5;
     text-align: center;
     border-radius: 5%;
-    width:10px;
+    width: 10px;
+}
+
+.pending {
+    color: #BABABA;
+    background-color: #F8F8F8;
+    text-align: center;
+    border-radius: 5%;
+    width: 10px;
+}
+
+.invoice {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    width: 1172px;
+    margin-left: 70px;
+    margin-top: 35px;
+}
+
+.invoice span {
+    font-weight: bolder;
+    font-size: 22px;
+    margin-left: 5px;
+}
+
+.invoice p {
+    color: red;
+    font-size: 12px;
+    margin-top: 6px;
+    margin-left: 1030px;
+
+}
+.display-none{
+    display: none;
+}
+
+/* Media Query */
+@media screen and (min-width:360px) and (max-width:767px) {
+    .headerline {
+        
+        height:20vh;
+        width: 100vw;
     }
-    .pending{
-        color: #BABABA;
-        background-color: #F8F8F8;
-        text-align: center;
-        border-radius: 5%;
-        width:10px;
-    }
-    .invoice{
-        display:flex;
-        flex-direction:row;
-        background-color: white;
-        width:1172px;
-        margin-left:70px;  
-        margin-top:35px;
-    }
-    .invoice span{
-        font-weight: bolder;
-        font-size: 22px;
-        margin-left:5px;
-    }
-    .invoice p{
-        color: red;
-        font-size: 12px;
-        margin-top:6px;
-        margin-left:1030px;
+    .companylogo {
+        
+        display: none;
 
     }
+
+    .companylogo-mobile {
+        display: inline;
+        width:10vw;
+        height:70px;
+    }
+    .menulogo {
+        width: 20vw;
+        height: auto;
+        
+    }
+    .searchlogo {
+        width: 20vw;
+        height: auto;
+        margin-bottom:45px;
+    }
+    .searchbox {
+        height:auto;
+        width:100px;
+        border: 0px;
+        margin-bottom:45px;
+    }
+    .sidebar {
+        
+        display: flex;
+        flex-direction:row;
+        float: left;
+    }
+    
+}

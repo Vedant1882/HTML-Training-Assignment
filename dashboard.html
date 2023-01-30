@@ -4,7 +4,8 @@
 
 <head>
     <meta charset="utf-8" />
-    <title>HTML Training Assignment</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Dashboard</title>
      <link rel="stylesheet" href="css\bootstrap.min.css">
     <link href="css\dashboard-style.css" rel="stylesheet">
 </head>
@@ -12,15 +13,18 @@
 <body>
     <section>
         <header class="headerline">
-            <div>
-                <img src="images\menu-bar.svg" class="menulogo" />
-            </div>
-            <div>
+            
+                <a id="menu-img">
+                    <img src="images\menu-bar.svg" class="menulogo" />
+                </a>
+            
+            
                 <img src="images\header-logo.svg" class="companylogo" />
-            </div>
-            <div>
+                <img src="images\favicon.ico" class="companylogo-mobile" />
+            
+            
                 <img src="images\search-icon.svg" class="searchlogo" />
-            </div>
+            
             <input type="text" placeholder="search" class="searchbox" />
             <div class="rightheader">
                 <img src="images\notification-icon.svg" class="notificationlogo" />
@@ -30,8 +34,8 @@
 
             </div>
         </header>
-    </section>
-    <div class="sidebar">
+   
+    <div class="sidebar" id="side-bar">
         <div class="dash">
             <img src="images\dashboard-active.svg" class="notificationlogo" />
             <span class="sidetext">Dashboard</span>
@@ -250,9 +254,13 @@
         </table>
     
     </div>
+</section>
 
-
-
+<script>
+    document.getElementById("menu-img").onclick=function() {
+        document.getElementById("side-bar").classList.toggle("display-none");
+    }
+</script>
 
 
 </body>
