@@ -1,0 +1,490 @@
+
+.headerline {
+    display: flex;
+    flex-direction: row;
+    height: 80px;
+    width: 100%;
+}
+
+.menulogo {
+    width: 30px;
+    height: 30px;
+    margin-left: 29px;
+    margin-top: 15px;
+    /* UI Properties */
+}
+
+.companylogo {
+    width: 142px;
+    height: 30px;
+    margin-left: 25px;
+    margin-top: 15px;
+}
+
+.searchlogo {
+    width: 25px;
+    height: 25px;
+    margin-left: 77px;
+    margin-top: 15px;
+}
+
+.searchbox {
+    height: 21px;
+    width: 50px;
+    border: 0px;
+    margin-left: 14.74px;
+    margin-top: 15px;
+}
+
+.rightheader {
+    display: flex;
+    flex-direction: row;
+    margin-left: 860px;
+}
+
+.notificationlogo {
+    height: 22px;
+    width: 22px;
+    margin-top: 10px;
+}
+
+.picture {
+    height: 35px;
+    width: 35px;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+
+.john {
+    height: 21px;
+    width: 90px;
+    margin-top: 15px;
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+.arrowlogo {
+    height: 15px;
+    width: 15px;
+    margin-top: 15px;
+}
+
+.sidebar {
+    margin-top: 25px;
+    height: 1279px;
+    width: 242px;
+    display: flex;
+    flex-direction: column;
+    float: left;
+}
+
+.dash {
+    height: 43px;
+    width: 183px;
+    margin-left: 30px;
+    background-color: #FFF3F4;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.sidebardiv {
+    margin-top: 32px;
+    margin-right: 15px;
+    text-align: center;
+}
+
+.sidetext {
+    margin-left: 15px;
+    position: relative;
+    align-items: center;
+    top:7px;
+    right: 5px;
+}
+
+.sidebardiv1 {
+    margin-top: 32px;
+    margin-right: 15px;
+    text-align: center;
+}
+
+.sidebardiv2 {
+    margin-top: 32px;
+    margin-right: 35px;
+    text-align: center;
+}
+
+.sidebardiv3 {
+    margin-top: 32px;
+    margin-right: 26px;
+    text-align: center;
+}
+
+.sidebardiv4 {
+    margin-top: 32px;
+    margin-right: 39px;
+    text-align: center;
+}
+
+.sidebardiv5 {
+    margin-top: 32px;
+    margin-left: 10px;
+    text-align: center;
+}
+
+.sidebardiv6 {
+    margin-top: 32px;
+    margin-right: 33px;
+    text-align: center;
+}
+
+.topdashdiv {
+    margin-left: 48px;
+    height: 39px;
+    width: 146px;
+    margin-top: 30px;
+}
+
+.mainpage {
+    float: left;
+    background-color: #FAFAFA;
+    height: 1200px;
+    width: 1260px;
+}
+
+.topdashdiv span {
+    font-size: 30px;
+    font-weight: bolder;
+    display: flex;
+    flex-direction: column;
+}
+/*first div*/
+.info-div {
+    display: flex;
+    flex-direction: row;
+    margin-top:20px;
+}
+
+.info-1 {
+    display: flex;
+    flex-direction: row;
+    margin-left: 70px;
+    background-color: white;
+    height: 116px;
+    width: 220px;
+}
+
+.innerimage-1 {
+    margin: 37px 0px 0px 20px;
+}
+
+.innerinfo-1 {
+    display: flex;
+    flex-direction: column;
+    margin: 32px 0px 0px 16px;
+}
+
+    .innerinfo-1 span {
+        font-size: 25px;
+    }
+
+    .innerinfo-1 p {
+        font-size: 15px;
+        margin-left: 1px;
+        bottom: 10px;
+        position: relative;
+    }
+/*Second div*/
+
+
+.info-2 {
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+    background-color: white;
+    height: 116px;
+    width: 220px;
+}
+
+.innerimage-2 {
+    margin: 37px 0px 0px 20px;
+}
+
+.innerinfo-2 {
+    display: flex;
+    flex-direction: column;
+    margin: 32px 0px 0px 16px;
+}
+
+    .innerinfo-2 span {
+        font-size: 25px;
+    }
+
+    .innerinfo-2 p {
+        font-size: 15px;
+        margin-left: 1px;
+        bottom: 10px;
+        position: relative;
+    }
+
+/*3rd div*/
+.info-3 {
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+    background-color: white;
+    height: 116px;
+    width: 220px;
+}
+
+.innerimage-3 {
+    margin: 37px 0px 0px 20px;
+    width:45px;
+    height:45px;
+}
+
+.innerinfo-3 {
+    display: flex;
+    flex-direction: column;
+    margin: 32px 0px 0px 16px;
+}
+
+    .innerinfo-3 span {
+        font-size: 25px;
+    }
+
+    .innerinfo-3 p {
+        font-size: 15px;
+        margin-left: 1px;
+        bottom: 10px;
+        position: relative;
+    }
+    /*4th div*/
+.info-4 {
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+    background-color: white;
+    height: 116px;
+    width: 220px;
+}
+
+.innerimage-4{
+    margin: 37px 0px 0px 20px;
+}
+
+.innerinfo-4 {
+    display: flex;
+    flex-direction: column;
+    margin: 32px 0px 0px 20px;
+}
+
+    .innerinfo-4 span {
+        font-size: 25px;
+    }
+
+    .innerinfo-4 p {
+        font-size: 15px;
+        margin-left: 1px;
+        bottom: 10px;
+        position: relative;
+    }
+    /*5th div*/
+.info-5 {
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+    background-color: white;
+    height: 116px;
+    width: 220px;
+}
+
+.innerimage-5 {
+    margin: 41px 0px 0px 20px;
+}
+
+.innerinfo-5 {
+    display: flex;
+    flex-direction: column;
+    margin: 34px 0px 0px 16px;
+}
+
+    .innerinfo-5 span {
+        font-size: 25px;
+    }
+
+    .innerinfo-5 p {
+        bottom: 10px;
+        position: relative;
+        font-size: 15px;
+        margin-left: 1px;
+    }
+/*  graphs */
+.graphs {
+    display: flex;
+    flex-direction:row;
+}
+.salegraph {
+    display: flex;
+    flex-direction:column;
+    background-color:white;
+    margin-left:69px;
+    margin-top:30px;
+}
+.graphhead {
+    display: flex;
+    flex-direction:row;
+}
+.graph-sales {
+    font-size: 29px;
+    margin-right: 90px;
+    font-weight: bolder;
+    margin-left: 20px;
+}
+.graph-weekly {
+    margin-left: 260px;
+    text-decoration: none;
+    margin-top:40px;
+    font-size: 15px;
+    color: #ADADAD;
+}
+.graph-monthly {
+    margin-left: 90px;
+    text-decoration: none;
+    margin-top: 15px;
+    margin-top: 40px;
+    font-size: 15px;
+    color: #ADADAD;
+}
+.graph-yearly {
+    margin-left: 90px;
+    margin-top: 15px;
+    margin-top: 40px;
+    font-size: 15px;
+    color: #C8242F;
+}
+.graph1{
+    margin-left:20px;
+}
+/*Sales by country graph*/
+.salesbycountry {
+    display: flex;
+    flex-direction:column;
+    margin-left:30px;
+    margin-top:30px;
+    background-color:white;
+    width:385px;
+}
+.salesbycountry p{
+    font-weight:bolder;
+    font-size:22px;
+    margin-left:15px;
+}
+.salesbycountry img{
+        height:200px;
+        width:200px;
+        margin-left:100px;
+    }
+.piemain {
+    display: flex;
+    flex-direction: column;
+}
+.uscanada {
+    display: flex;
+    flex-direction:row;
+}
+.greendot {
+    background-color: green;
+    border-radius: 50%;
+    height: 18px;
+    width: 18px;
+    margin-top:5px;
+    margin-left:15px;
+}
+.reddot {
+    background-color:red;
+    border-radius: 50%;
+    height: 18px;
+    width: 18px;
+    margin-top:5px;
+    margin-left:15px;
+}
+.uscanada p{
+    font-size:15px;
+
+}
+.rus-india{
+    display: flex;
+    flex-direction:row;
+}
+.orangedot {
+    background-color: rgb(247, 186, 32);
+    border-radius: 50%;
+    height: 18px;
+    width: 18px;
+    margin-top:5px;
+    margin-left:15px;
+}
+.yellowdot{
+    
+        background-color: rgb(224, 244, 73);
+        border-radius: 50%;
+        height: 18px;
+        width: 18px;
+        margin-top:5px;
+        margin-left:145px;
+}
+.rus-india p{
+    font-size:15px;
+
+}
+/* TABLE */
+.table{
+    background-color: white;
+    margin-left:70px;
+    
+    width:1173px;
+}
+.head11{
+    color:#ADADAD;
+}
+.paid{
+color: #3CDD5F;
+background-color: #EBFFEF;
+text-align: center;
+border-radius: 5%;
+width:10px;
+}
+.failed{
+    color:#FF4545;
+    background-color: #FFF5F5;
+    text-align: center;
+    border-radius: 5%;
+    width:10px;
+    }
+    .pending{
+        color: #BABABA;
+        background-color: #F8F8F8;
+        text-align: center;
+        border-radius: 5%;
+        width:10px;
+    }
+    .invoice{
+        display:flex;
+        flex-direction:row;
+        background-color: white;
+        width:1172px;
+        margin-left:70px;  
+        margin-top:35px;
+    }
+    .invoice span{
+        font-weight: bolder;
+        font-size: 22px;
+        margin-left:5px;
+    }
+    .invoice p{
+        color: red;
+        font-size: 12px;
+        margin-top:6px;
+        margin-left:1030px;
+
+    }
