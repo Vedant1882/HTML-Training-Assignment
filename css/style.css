@@ -1,24 +1,28 @@
 .maindiv {
-	background-color: #FAFAFA
+	background-color: #FAFAFA;
+	overflow-x: hidden;
 }
 
-.seconddiv {
-	height: 700px;
-	width: 700px;
-	margin: 56px 81px 6px 153px;
-	float: left;
-}
+
 .thirddiv {
+	float: left;
 	height: 600px;
 	width: 600px;
 	background-color: white;
 	border-radius: 50%;
+	border: 3px solid white ;
+	margin-left:200px;
 }
 .heroimage {
 	height: 550px;
 	width: 550px;
 	border-radius: 50%;
 	margin: 25px 10px 10px 25px;
+}
+.right-div{
+	margin: 3%; 
+	position: relative;
+	left:200px;
 }
 .coimage {
 	margin: 85px 1px 1px 1px ;
@@ -56,9 +60,10 @@
 .font {
 	font: normal normal 300 40px/47px Roboto
 }
-span {
+.font span {
 	color: #C8242F;
-	font: normal normal 900 40px/53px Roboto;
+	
+	font:normal normal 300 40px/47px Roboto;
 }
 .anchor {
 	color: red;
@@ -75,61 +80,96 @@ p{
 
 
 
-@media only screen and (min-width:360px) and (max-width:1333px){
+@media only screen and (min-width:360px) and (max-width:1127px){
 	.textbox {
 		
-		margin-left:35%;
+		margin-left:0%;
 	}
 	.login{
-		margin-left:35%;
+		margin-left:0%;
 	}
 	.link{
-		margin-left:30%;
+		margin-left:0%;
 	}
 	.font{
-		margin-left:30%;
+		margin-left:0%;
 	}
 	.coimage{
-		margin-left:35%;
+		margin-left:0%;
 	}
 	.font1{
-		margin-left:30%;
+		margin-left:0%;
 	}
 	.link{
-		margin-left:13%;
+		margin-left:0%;
 	}
 	.anchor{
-		margin-left:30%;
+		margin-left:0%;
 	}
 	.seconddiv{
-		margin-left:23%;
+		margin-left:0%;
+	}
+	.thirddiv {
+		
+		margin-left:200px;
+	}
+	.heroimage {
+		height: 550px;
+		width: 550px;
+		border-radius: 50%;
+		margin: 25px 10px 10px 25px;
+	}
+	.right-div{
+		margin-left:10%;
 	}
 }
-/* @media only screen and (min-width:1262px) and (max-width:1329px){
+@media only screen and (min-width:1127px) and (max-width:1400px){
 	.textbox {
 		
-		margin-left:35%;
+		margin-left:0%;
 	}
 	.login{
-		margin-left:35%;
+		margin-left:0%;
 	}
 	.link{
-		margin-left:30%;
+		margin-left:0%;
 	}
-	
+	.font{
+		margin-left:0%;
+	}
 	.coimage{
-		margin-left:40%;
+		margin-left:0%;
 	}
 	.font1{
-		margin-left:30%;
+		margin-left:0%;
 	}
 	.link{
-		margin-left:13%;
+		margin-left:0%;
 	}
 	.anchor{
-		margin-left:30%;
+		margin-left:0%;
 	}
 	.seconddiv{
-		margin-left:23%;
+		margin-left:0%;
 	}
-} */
+	.thirddiv {
+		height:auto;
+		width:auto;
+		margin-left:100px;
+	}
+	.heroimage {
+		height:550px;
+		width:550px;
+		border-radius: 50%;
+		margin: 25px 10px 10px 25px;
+	}
+	.right-div{
+		margin-left:10%;
+	}
+	.font {
+		font: normal normal 300 30px/47px Roboto
+	}
+}
+    
+
+   
