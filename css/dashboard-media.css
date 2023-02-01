@@ -414,6 +414,13 @@
         column-gap: 2%;
         padding-left: 2%;
     }
+    .open{
+        display: flex;
+    }
+    
+    .close{
+        display: none;
+    }
 }
 
 @media screen and (max-width : 662px){
@@ -476,6 +483,13 @@
      
         
     }
+    .open{
+        display: flex;
+    }
+    
+    .close{
+        display: none;
+    }
 }
 
 @media screen and (max-width : 601px){
@@ -485,10 +499,23 @@
         align-items: center;
     
     }
+    .open{
+        display: flex;
+    }
+    
+    .close{
+        display: none;
+    }
 }
 
 @media screen and (max-width :547px){
-
+    .open{
+        display: flex;
+    }
+    
+    .close{
+        display: none;
+    }
     .search-box {
         display: flex;
         width: 27%;
@@ -540,6 +567,23 @@
 }
 
 @media screen and (max-width : 496px){
+    .left--sidebar{
+        display: none;
+    }
+    .open{
+        display: none;
+    }
+    
+    .close{
+        display: flex;
+    }
+    .open{
+        display: flex;
+    }
+    
+    .close{
+        display: none;
+    }
     .insights{
         display: grid;
         grid-template-columns: 80%;
@@ -561,6 +605,23 @@
 }
 
 @media screen and (max-width : 467px){
+    .left--sidebar{
+        display: none;
+    }
+    .open{
+        display: none;
+    }
+    
+    .close{
+        display: flex;
+    }
+    .open{
+        display: flex;
+    }
+    
+    .close{
+        display: none;
+    }
     .navigation-profile{
         display: none;
     }
@@ -629,6 +690,16 @@
 
 
 @media screen and (max-width : 432px){
+    .left--sidebar{
+        display: none;
+    }
+    .open{
+        display: none;
+    }
+    
+    .close{
+        display: flex;
+    }
     .charts{
         display: grid;
         width: 95%;
@@ -643,9 +714,26 @@
         
         
     }
+    .open{
+        display: flex;
+    }
+    
+    .close{
+        display: none;
+    }
 }
 
 @media screen and (max-width : 385px){
+    .left--sidebar{
+        display: none;
+    }
+    .open{
+        display: none;
+    }
+    
+    .close{
+        display: flex;
+    }
     .left--sidebar {
         width: 30%;
         height: 200vh;
@@ -675,4 +763,12 @@
         width: 13px;
         height: 13px;
     }
+    .open{
+        display: flex;
+    }
+    
+    .close{
+        display: none;
+    }
+    
 }
